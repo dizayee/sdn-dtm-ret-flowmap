@@ -53,11 +53,11 @@ fetchData().then((data) => {
 
   const initialViewState = {
     ...autoViewState,
-    latitude:  autoViewState.latitude -1,
+    latitude:  autoViewState.latitude ,
     longitude: autoViewState.longitude +3,  
     zoom:      autoViewState.zoom + 0.5,     
     pitch:     50,
-    bearing:   16,
+    bearing:   -5,
   };
 
   // ─── Mapbox base map ────────────────────────────────────────────────────────
